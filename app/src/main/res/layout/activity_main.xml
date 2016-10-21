@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.textviewdemo.AlignTextView
+            android:id="@+id/tv1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            app:text="安卓" />
+    </LinearLayout>
+
+    <com.example.textviewdemo.AlignTextView
+        android:id="@+id/tv2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:text="机器人" />
+
+    <com.example.textviewdemo.AlignTextView
+        android:id="@+id/tv3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:text="尼古拉斯" />
+
+    <com.example.textviewdemo.AlignTextView
+        android:id="@+id/tv4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:text="北京欢迎你" />
+
+    <com.example.textviewdemo.AlignTextView
+        android:id="@+id/tv5"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:text="疯狂安卓讲义" />
+    <!--如果带 ：就加上app:suffixMode="full_width"属性-->
+</LinearLayout>
